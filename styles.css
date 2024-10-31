@@ -1,0 +1,88 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.tip-calculator {
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  text-align: center;
+  border: 2px solid #ff7e5f;
+}
+
+h1 {
+  font-size: 2em;
+  color: #ff7e5f;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+}
+
+input[type="number"], input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input[type="number"]:focus, input[type="text"]:focus, select:focus {
+  border-color: #ff7e5f;
+  outline: none;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+input[disabled] {
+  background-color: #e9ecef;
+  color: #666;
+}
+
+button {
+  background-color: #ff7e5f;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #feb47b;
+}
+
+.results {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+p.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
