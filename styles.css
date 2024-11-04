@@ -24,6 +24,11 @@ h1 {
   color: #ff7e5f;
   margin-bottom: 15px;
 }
+h1 {
+  font-size: 0.8em;
+  color: #1d1d1d;
+  margin-top: 15px;
+}
 
 label {
   display: block;
